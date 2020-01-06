@@ -11,3 +11,9 @@ You will want to add this to your bashrc to get all the right things on your PAT
 ```sh
 export PATH="/home/vagrant/.cabal/bin:/home/vagrant/.local/bin:${PATH}"
 ```
+
+The binary built from source can be found at
+
+```sh
+/home/vagrant/src/idris/dist-newstyle/build/x86_64-linux/ghc-8.0.2/idris-1.3.2/build/idris/idris
+```
