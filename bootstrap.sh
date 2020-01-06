@@ -18,3 +18,11 @@ cabal install --force-reinstalls Cabal cabal-install
 
 # Install Idris
 /home/vagrant/.cabal/bin/cabal install idris
+
+# git clone idris & build v1.3.2
+mkdir src
+cd src
+git clone https://github.com/idris-lang/Idris-dev.git idris
+cd idris
+git checkout v1.3.2
+make build
